@@ -62,7 +62,7 @@ const countryData ={
 
 function escapeMarkdown(text) {
     if (typeof text !== 'string') {
-        return String(text); // Return as-is if not a string
+        return String(text); 
     }
     // Escape specific Markdown v1 characters that might cause issues
     return text
